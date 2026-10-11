@@ -89,8 +89,13 @@ export const site = {
   title: "Muskan Gupta — Frontend Developer transitioning into AI Engineering",
   description:
     "Frontend developer with 2+ years building enterprise e-commerce storefronts in React, Next.js and TypeScript at Amla Commerce (Znode), now building LLM-powered agents and learning machine learning.",
-  /** Set NEXT_PUBLIC_SITE_URL in Vercel so canonical/OG URLs are absolute. */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  /**
+   * Absolute URL for canonical/OG/sitemap. NEXT_PUBLIC_SITE_URL wins (e.g. a custom domain);
+   * otherwise Vercel's production domain, which Vercel sets automatically at build time.
+   */
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000"),
   location: "Nagpur, Maharashtra, India",
   email: "muskang5677@gmail.com",
   resume: {

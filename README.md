@@ -127,5 +127,5 @@ vercel           # preview deployment
 vercel --prod    # production
 ```
 
-`NEXT_PUBLIC_SITE_URL` drives canonical URLs, Open Graph, `sitemap.xml` and `robots.txt`; it defaults to
+`NEXT_PUBLIC_SITE_URL` drives canonical URLs, Open Graph, `sitemap.xml` and `robots.txt`. On Vercel it is optional: it falls back to the project's production domain (`VERCEL_PROJECT_PRODUCTION_URL`), and otherwise defaults to
 `http://localhost:3000` when unset.
