@@ -40,6 +40,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# resume kept out of git until a version without phone number is added
-public/resume/*.pdf
