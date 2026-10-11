@@ -23,7 +23,7 @@ export function About() {
                     fill
                     sizes="(min-width: 640px) 224px, 192px"
                     className="object-cover"
-                    style={{ objectPosition: "center 22%" }}
+                    style={{ objectPosition: "center 30%" }}
                   />
                 </div>
               </div>

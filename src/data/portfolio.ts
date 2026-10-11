@@ -141,8 +141,8 @@ export const now = [
 
 export const about = {
   photo: {
-    src: "/profile/muskan-gupta.jpg",
-    alt: "Portrait of Muskan Gupta in a grey blazer and white blouse",
+    src: "/profile/muskan-gupta.webp",
+    alt: "Portrait of Muskan Gupta smiling, in a beige blazer, against a light grey background",
   },
   paragraphs: [
     "I started on the frontend because I like work you can see and feel. At Amla Commerce I build storefronts on Znode, an enterprise e-commerce platform. That means catalog, cart, checkout and account flows that real shoppers use every day, so performance, accessibility and correctness matter more than flashy demos.",
