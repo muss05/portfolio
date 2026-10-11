@@ -21,7 +21,8 @@ export function About() {
                     src={about.photo.src}
                     alt={about.photo.alt}
                     fill
-                    sizes="(min-width: 640px) 224px, 192px"
+                    sizes="(min-width: 640px) 448px, 384px"
+                    quality={90}
                     className="object-cover"
                     style={{ objectPosition: "center 30%" }}
                   />
